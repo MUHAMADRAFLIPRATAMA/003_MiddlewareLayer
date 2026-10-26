@@ -1,7 +1,7 @@
 {
   "name": "pert-7",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. GET\r <img width=\"1919\" height=\"1079\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b1f84bcd-9205-4b07-b157-b81364349afb\" />",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,16 @@
   "type": "module",
   "dependencies": {
     "express": "^5.3.0",
+    "i": "^0.3.7",
     "joi": "^18.3.0",
     "pg": "^8.23.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MUHAMADRAFLIPRATAMA/003_MiddlewareLayer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MUHAMADRAFLIPRATAMA/003_MiddlewareLayer/issues"
+  },
+  "homepage": "https://github.com/MUHAMADRAFLIPRATAMA/003_MiddlewareLayer#readme"
 }
