@@ -14,3 +14,12 @@ const pool = new Pool({
   port: 5432,
 });
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+//MIDDLEWARE LOGGING
+
+app.use((req, res, next) => {
+  const start = Date.now();
+
+ 
